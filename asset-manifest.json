@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fast-camp.git/static/css/main.2242fa72.css",
-    "main.js": "/fast-camp.git/static/js/main.f741c752.js",
-    "static/js/787.fc4d6580.chunk.js": "/fast-camp.git/static/js/787.fc4d6580.chunk.js",
-    "index.html": "/fast-camp.git/index.html",
-    "main.2242fa72.css.map": "/fast-camp.git/static/css/main.2242fa72.css.map",
-    "main.f741c752.js.map": "/fast-camp.git/static/js/main.f741c752.js.map",
-    "787.fc4d6580.chunk.js.map": "/fast-camp.git/static/js/787.fc4d6580.chunk.js.map"
+    "main.css": "/fast-camp.git/disney-plus-app/static/css/main.2242fa72.css",
+    "main.js": "/fast-camp.git/disney-plus-app/static/js/main.06d2b834.js",
+    "static/js/787.fc4d6580.chunk.js": "/fast-camp.git/disney-plus-app/static/js/787.fc4d6580.chunk.js",
+    "index.html": "/fast-camp.git/disney-plus-app/index.html",
+    "main.2242fa72.css.map": "/fast-camp.git/disney-plus-app/static/css/main.2242fa72.css.map",
+    "main.06d2b834.js.map": "/fast-camp.git/disney-plus-app/static/js/main.06d2b834.js.map",
+    "787.fc4d6580.chunk.js.map": "/fast-camp.git/disney-plus-app/static/js/787.fc4d6580.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2242fa72.css",
-    "static/js/main.f741c752.js"
+    "static/js/main.06d2b834.js"
   ]
 }
