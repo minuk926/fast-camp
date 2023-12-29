@@ -4,8 +4,8 @@ import axios from "axios";
 const config = {
     baseURL: 'https://api.themoviedb.org/3',
     params: {
-        api_key: 'cc7a0945a1b307310d721a53c9277e88',
-        language: 'ko-KR'
+        api_key: "cc7a0945a1b307310d721a53c9277e88",
+        language: "ko-KR"
     }
 }
 

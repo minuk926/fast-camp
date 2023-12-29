@@ -1,54 +1,56 @@
-import React from 'react';
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
-function Category(props) {
-    return (
-        <Container>
-            <Wrap>
-                <img src="/images/viewers-disney.png" alt="disney" />
-                <video autoPlay loop muted>
-                    <source src="/videos/disney.mp4" type='video/mp4' />
-                </video>
-            </Wrap>
-            <Wrap>
-                <img src="/images/viewers-marvel.png" alt="marvel" />
-                <video autoPlay loop muted>
-                    <source src="/videos/marvel.mp4" type='video/mp4' />
-                </video>
-            </Wrap>
-            <Wrap>
-                <img src="/images/viewers-pixar.png" alt="pixar" />
-                <video autoPlay loop muted>
-                    <source src="/videos/pixar.mp4" type='video/mp4' />
-                </video>
-            </Wrap>
-            <Wrap>
-                <img src="/images/viewers-starwars.png" alt="starwars" />
-                <video autoPlay loop muted>
-                    <source src="/videos/star-wars.mp4" type='video/mp4' />
-                </video>
-            </Wrap>
-            <Wrap>
-                <img src="/images/viewers-national.png" alt="national" />
-                <video autoPlay loop muted>
-                    <source src="/videos/national-geographic.mp4" type='video/mp4' />
-                </video>
-            </Wrap>
-        </Container>
-    );
+const Category = () => {
+  return (
+    <Container>
+      <Wrap>
+        <img src="/images/viewers-disney.png" alt="disney" />
+        <video autoPlay loop muted>
+          <source src="/videos/disney.mp4" type='video/mp4' />
+        </video>
+      </Wrap>
+      <Wrap>
+        <img src="/images/viewers-marvel.png" alt="marvel" />
+        <video autoPlay loop muted>
+          <source src="/videos/marvel.mp4" type='video/mp4' />
+        </video>
+      </Wrap>
+      <Wrap>
+        <img src="/images/viewers-pixar.png" alt="pixar" />
+        <video autoPlay loop muted>
+          <source src="/videos/pixar.mp4" type='video/mp4' />
+        </video>
+      </Wrap>
+      <Wrap>
+        <img src="/images/viewers-starwars.png" alt="starwars" />
+        <video autoPlay loop muted>
+          <source src="/videos/star-wars.mp4" type='video/mp4' />
+        </video>
+      </Wrap>
+      <Wrap>
+        <img src="/images/viewers-national.png" alt="national" />
+        <video autoPlay loop muted>
+          <source src="/videos/national-geographic.mp4" type='video/mp4' />
+        </video>
+      </Wrap>
+
+    </Container>
+  )
 }
-export default Category;
+
+export default Category
 
 const Container = styled.div`
-    margin-top: 30px;
-    padding: 30px 0px 26px;
-    display: grid;
-    gap: 25px;
-    grid-template-columns: repeat(5, 1fr);
+  margin-top: 30px;
+  padding: 30px 0px 26px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(5, 1fr);
 
-    @media (max-width: 768px) {
-        grid-template-columns : repeat(1, 1fr);
-    }
+  @media (max-width: 768px) {
+    grid-template-columns : repeat(1, 1fr);
+  }
 `;
 
 const Wrap = styled.div`
